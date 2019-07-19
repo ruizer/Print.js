@@ -1,0 +1,33 @@
+{
+  "name": "print.js",
+  "version": "1.0.0",
+  "description": "个性化定制打印区域/打印内容，实现动态打印",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruizer/Print.js.git"
+  },
+  "keywords": [
+    "print",
+    "个性化",
+    "定制区域",
+    "动态打印"
+  ],
+  "author": "ruizer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruizer/Print.js/issues"
+  },
+  "homepage": "https://github.com/ruizer/Print.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
