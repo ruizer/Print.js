@@ -73,4 +73,8 @@ class Print {
   }
 }
 
+if (typeof window !== 'undefined') {
+  window.printjs = Print;
+}
+
 export default Print
